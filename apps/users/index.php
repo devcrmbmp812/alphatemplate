@@ -187,13 +187,15 @@ include_once('../../includes/design-header.php');
         <!-- /.content -->
   </div>
   
-<!-- Fab Admin for Data Table -->
-<script src="/js/pages/data-table.js"></script>
-<!-- custom js -->
-<script src="/js/pages/custom.js"></script>
+
 
 <?php 
 //Including design footer + javascripts
 include_once('../../includes/design-footer.php'); 
 ?>
+
+<!-- Fab Admin for Data Table -->
+<script src="/js/pages/data-table.js"></script>
+<!-- custom js -->
+<script src="/js/pages/custom.js"></script>
 

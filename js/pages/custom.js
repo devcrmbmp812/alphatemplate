@@ -73,4 +73,11 @@ $(function () {
         console.log("id", id);
 
     });
+
+    $('#logs .delete').click(function() {
+        var id = $(this).attr('id').substring(7);
+        $('#log-delete-modal').modal('toggle');
+        $('#log-delete-modal #del_id').val(id);
+        console.log("id", id);
+    });
 });

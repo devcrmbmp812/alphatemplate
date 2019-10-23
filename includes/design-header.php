@@ -298,6 +298,14 @@
             </span>
           </a>
         </li>
+        <li class="<?PHP if ($page == "logs") { echo "active"; } ?>">
+            <a href="/apps/users/logs.php">
+                <i class="fa fa-users"></i> <span>Logs</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-right pull-right"></i>
+                </span>
+            </a>
+        </li>
         <li class="header nav-small-cap">ADMIN</li>
         <li class="treeview <?PHP if ($page == "admin" && $mode == "settings") { echo "active"; } ?>">
           <a href="/admin/settings">
